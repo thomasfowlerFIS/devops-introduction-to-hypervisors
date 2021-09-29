@@ -51,6 +51,11 @@ application might, with the exception of emulating hardware,
 such as CPUs, system memory, hard drives, network adapters,
 etc.
 
+It is important to note that hosted hypervisors also share
+system resources with other applications and services running
+on the host machine and are therefore constrained by resource
+allocation managed by the host machine's operating system.
+
 [Figures here]
 
 The second, Type 1, is what is known as a native hypervisor.
@@ -62,29 +67,3 @@ which to interact. It manages virtual machines or guest
 operating systems in the same way a hosted hypervisor does, but
 guest operating systems exist at a higher level than the
 hypervisor itself.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
->>>>>>> 1372150 (Initial commit.)
