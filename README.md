@@ -32,7 +32,7 @@ for the assignments, labs, and projects in this course.
 VirtualBox is owned and maintained by Oracle Corporation and is
 open source and free to use.
 
-[Screen shot of VirtualBox]
+<img src="assets/VirtualBox_screenshot.png" width="500" /> [Fig. 1]
 
 VirtualBox allows for extensive configuration and customization
 of virtual machines. It supports serveral different guest
@@ -56,7 +56,7 @@ system resources with other applications and services running
 on the host machine and are therefore constrained by resource
 allocation managed by the host machine's operating system.
 
-[Figures here]
+<!-- [Diagram here] -->
 
 The second, Type 1, is what is known as a native hypervisor.
 The native hypervisor has the same set of functions and purpose
@@ -67,3 +67,27 @@ which to interact. It manages virtual machines or guest
 operating systems in the same way a hosted hypervisor does, but
 guest operating systems exist at a higher level than the
 hypervisor itself.
+
+--------------------------------------------
+
+Hypervisor Types:
+
+* **Hosted** - Software that resides and runs on the host
+machine's operating system. Examples of these include, but are
+not limited to:
+
+  * VirtualBox
+  * VMWare Workstation
+  * Parallels Desktop
+  * QEMU
+
+* **Native** - Software that resides and runs on bare metal
+servers without the need for a conventional operating system
+present on the hardware. Some examples of native hypervisors
+are as follows:
+
+  * VMWare ESXi
+  * Microsoft Hyper-V
+  * Xen
+
+--------------------------------------------
