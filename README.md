@@ -32,7 +32,7 @@ for the assignments, labs, and projects in this course.
 VirtualBox is owned and maintained by Oracle Corporation and is
 open source and free to use.
 
-<img src="assets/VirtualBox_screenshot.png" width="500" /> [Fig. 1]
+<img src="https://raw.githubusercontent.com/thomasfowlerFIS/devops-introduction-to-hypervisors/master/assets/VirtualBox_screenshot.png" width="500" /> [Fig. 1]
 
 VirtualBox allows for extensive configuration and customization
 of virtual machines. It supports serveral different guest
